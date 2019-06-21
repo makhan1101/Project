@@ -1,0 +1,16 @@
+F:\project\Store_Management\Store_Management\bin\Debug\Store_Management.exe.config
+F:\project\Store_Management\Store_Management\bin\Debug\Store_Management.exe
+F:\project\Store_Management\Store_Management\bin\Debug\Store_Management.pdb
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.Form1.resources
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.Properties.Resources.resources
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.csproj.GenerateResource.Cache
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.exe
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.pdb
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.csprojResolveAssemblyReference.cache
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.CreditControl.resources
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.DebitControl.resources
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.JournalVoucherControl.resources
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.PurchaseBill.resources
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.SaleBillControl.resources
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.Account.resources
+F:\project\Store_Management\Store_Management\obj\Debug\Store_Management.Accounts_datagrid.resources
