@@ -11,6 +11,7 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -47,8 +47,36 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.337.80\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.337.80\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.337.80\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.337.80\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.337.80\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="SAPBusinessObjects.WPF.Viewer, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="SAPBusinessObjects.WPF.ViewerShared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,22 +94,67 @@
     <Compile Include="Account.Designer.cs">
       <DependentUpon>Account.cs</DependentUpon>
     </Compile>
-    <Compile Include="Accounts_datagrid.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Add.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Accounts_datagrid.Designer.cs">
-      <DependentUpon>Accounts_datagrid.cs</DependentUpon>
+    <Compile Include="Add.Designer.cs">
+      <DependentUpon>Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Credit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Credit.Designer.cs">
+      <DependentUpon>Add_Credit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_Debit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_Debit.Designer.cs">
+      <DependentUpon>add_Debit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD_JOURNAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD_JOURNAL.Designer.cs">
+      <DependentUpon>ADD_JOURNAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_PurchaseBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_PurchaseBill.Designer.cs">
+      <DependentUpon>Add_PurchaseBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_SaleBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_SaleBill.Designer.cs">
+      <DependentUpon>Add_SaleBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_StockAdjusment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_StockAdjusment.Designer.cs">
+      <DependentUpon>Add_StockAdjusment.cs</DependentUpon>
     </Compile>
     <Compile Include="BusinessLayer\Accounts.cs" />
     <Compile Include="BusinessLayer\Connection.cs" />
-    <Compile Include="BusinessLayer\Credit.cs" />
-    <Compile Include="BusinessLayer\DebitVoucher.cs" />
+    <Compile Include="BusinessLayer\Item.cs" />
     <Compile Include="BusinessLayer\Journal.cs" />
+    <Compile Include="BusinessLayer\PurchaseBills.cs" />
+    <Compile Include="BusinessLayer\SaleBill.cs" />
     <Compile Include="CreditControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="CreditControl.Designer.cs">
       <DependentUpon>CreditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="DebitControl.cs">
       <SubType>UserControl</SubType>
@@ -109,17 +182,66 @@
     <Compile Include="PurchaseBill.Designer.cs">
       <DependentUpon>PurchaseBill.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
     <Compile Include="SaleBillControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="SaleBillControl.Designer.cs">
       <DependentUpon>SaleBillControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Items.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Items.Designer.cs">
+      <DependentUpon>Items.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stock_Adjusment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stock_Adjusment.Designer.cs">
+      <DependentUpon>Stock_Adjusment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Viewer.Designer.cs">
+      <DependentUpon>Viewer.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Account.resx">
       <DependentUpon>Account.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Accounts_datagrid.resx">
-      <DependentUpon>Accounts_datagrid.cs</DependentUpon>
+    <EmbeddedResource Include="Add.resx">
+      <DependentUpon>Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Credit.resx">
+      <DependentUpon>Add_Credit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_Debit.resx">
+      <DependentUpon>add_Debit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD_JOURNAL.resx">
+      <DependentUpon>ADD_JOURNAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_PurchaseBill.resx">
+      <DependentUpon>Add_PurchaseBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_SaleBill.resx">
+      <DependentUpon>Add_SaleBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_StockAdjusment.resx">
+      <DependentUpon>Add_StockAdjusment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreditControl.resx">
       <DependentUpon>CreditControl.cs</DependentUpon>
@@ -146,9 +268,37 @@
     <EmbeddedResource Include="PurchaseBill.resx">
       <DependentUpon>PurchaseBill.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
     <EmbeddedResource Include="SaleBillControl.resx">
       <DependentUpon>SaleBillControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Items.resx">
+      <DependentUpon>Items.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock_Adjusment.resx">
+      <DependentUpon>Stock_Adjusment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewer.resx">
+      <DependentUpon>Viewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -160,7 +310,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images %281%29.png" />
@@ -197,6 +349,50 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Database\" />
+    <Folder Include="Report\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The-6-Must-Haves-of-Inventory-Management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The-6-Must-Haves-of-Inventory-Management1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory-management-blog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-file-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-file-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill-24.png" />
+    <None Include="Resources\inbox-5-24.png" />
+    <None Include="Resources\add-list-24.png" />
+    <None Include="Resources\calendar-24.png" />
+    <None Include="Resources\text-file-4-24.png" />
+    <None Include="Resources\powerpoint-24.png" />
+    <None Include="Resources\bar-chart-8-24.png" />
+    <None Include="Resources\text-file-4-241.png" />
+    <None Include="Resources\clipboard-8-24.png" />
+    <None Include="Resources\text-file-4-242.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

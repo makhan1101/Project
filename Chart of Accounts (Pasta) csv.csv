@@ -1,0 +1,99 @@
+﻿1,Assets,AccountID,AccountTile,Balance,HeadAccount
+,Current Assets,,Cash (1),0,None
+,Cash (1),,Cash (2),0,None
+,Cash (2),,Supense (Dasti),0,None
+,Supense (Dasti),,Meezan Bank,0,None
+,Meezan Bank,,Bank Al Falah,0,None
+,Bank Al Falah,,Faysal Bank,0,None
+,Faysal Bank,,A. JABBAR QUAIDABAD,0,None
+,Receivables (Creditors),,A. RAHSEED Q MOBILE,0,None
+,A. JABBAR QUAIDABAD,,A.M QUETTA,0,None
+,A. RAHSEED Q MOBILE,,ABDUL WADOOD,0,None
+,A.M QUETTA,,ABDUL WAHID ATTARI,0,None
+,ABDUL WADOOD,,AGHA QUETTA,0,None
+,ABDUL WAHID ATTARI,,AKHTAR HYD,0,None
+,AGHA QUETTA,,ALEEM KORANGI,0,None
+,AKHTAR HYD,,Al-Ubaid Quetta,0,None
+,ALEEM KORANGI,,AMJAD LARKANA,0,None
+,Al-Ubaid Quetta,,CHAWLA JACOBABAD,0,None
+,AMJAD LARKANA,,CHINA MOBILE SUKKUR,0,None
+,CHAWLA JACOBABAD,,D.J SRTC,0,None
+,CHINA MOBILE SUKKUR,,FAIZAN HYD,0,None
+,D.J SRTC,,FAIZAN QUAIDABAD,0,None
+,FAIZAN HYD,,FARHAN,0,None
+,FAIZAN QUAIDABAD,,FEROZ MAHER,0,None
+,FARHAN,,FIDU QUETTA,0,None
+,FEROZ MAHER,,GEO LUCKY SUKKUR,0,None
+,FIDU QUETTA,,GM LARKANA,0,None
+,GEO LUCKY SUKKUR,,HAMZA MOB BAHAWALPUR,0,None
+,GM LARKANA,,HAMZA MOB NAWABSHAH,0,None
+,HAMZA MOB BAHAWALPUR,,IMRAN SAKRANI,0,None
+,HAMZA MOB NAWABSHAH,,IQBAL QUETTA,0,None
+,IMRAN SAKRANI,,ISRAR HYD,0,None
+,IQBAL QUETTA,,JAHANGEER LARKANA,0,None
+,ISRAR HYD,,KALIYAN JACOBABAD,0,None
+,JAHANGEER LARKANA,,KAMRAN SHEHZADPUR,0,None
+,KALIYAN JACOBABAD,,LG QUETTA,0,None
+,KAMRAN SHEHZADPUR,,MAJID FAROOQUI,0,None
+,LG QUETTA,,MAJID LARKANA,0,None
+,MAJID FAROOQUI,,MEHMOOD MULTAN,0,None
+,MAJID LARKANA,,MOHIT OMER KOT,0,None
+,MEHMOOD MULTAN,,NAEEM HYD,0,None
+,MOHIT OMER KOT,,NIAZ QUETTA,0,None
+,NAEEM HYD,,QMA QUETTA,0,None
+,NIAZ QUETTA,,RAJA KORANGI,0,None
+,QMA QUETTA,,S.S.D,0,None
+,RAJA KORANGI,,SAJID DADOO,0,None
+,S.S.D,,SALMAN HYDERABAD,0,None
+,SAJID DADOO,,SAMI QUETTA,0,None
+,SALMAN HYDERABAD,,SHAHEER AHMED,0,None
+,SAMI QUETTA,,SHEHZAD PASTA,0,None
+,SHAHEER AHMED,,SINDH MOBILE DADOO,0,None
+,SHEHZAD PASTA,,TOSHI HYD,0,None
+,SINDH MOBILE DADOO,,TOUSEEF MAHER (Tando adam),0,None
+,TOSHI HYD,,UMAR QUAIDABAD,0,None
+,TOUSEEF MAHER (Tando adam),,WAHID U.T,0,None
+,UMAR QUAIDABAD,,WIRE MOBILE (WASEEM KHAIRPUR),0,None
+,WAHID U.T,,ZAHEER,0,None
+,WIRE MOBILE (WASEEM KHAIRPUR),,ZAHID KHANPUR,0,None
+,ZAHEER,,ZEENAT HYDERABAD,0,None
+,ZAHID KHANPUR,,ABDULLAH LARKANA,0,None
+,ZEENAT HYDERABAD,,HBI QUAIDABAD,0,None
+,ABDULLAH LARKANA,,KOHINOOR,0,None
+,HBI QUAIDABAD,,DIPLOMAT,0,None
+,Stocks,,SHOP 53,0,None
+,KOHINOOR,,SHOP B-40,0,None
+,DIPLOMAT,,GOODS IN TRANSIT,0,None
+,SHOP 53,,Fayyaz Advance Salary,0,None
+,SHOP B-40,,Shehzad Advance Salary,0,None
+,GOODS IN TRANSIT,,Fayyaz Advance Salary,0,None
+,Other Receivables,,Shehzad Advance Salary,0,None
+,Fayyaz Advance Salary,,CAPITAL,0,None
+,Shehzad Advance Salary,,DRAWING,0,None
+,,,SALE B-40,0,None
+,,,SALE 53,0,None
+2,Liabilities,,Staff Salaries,0,None
+,DEBTORS (Purchase Parties),,Rent B-40,0,None
+,Fayyaz Advance Salary,,Rent 53,0,None
+,Shehzad Advance Salary,,Rent Godown 2nd Floor,0,None
+,Fayyaz Advance Salary,,Rent Godown 3rd Floor,0,None
+,Shehzad Advance Salary,,Entertainment (Food/Tea),0,None
+,,,Cargo Exp,0,None
+3,EQUITY,,Utility Bills,0,None
+,CAPITAL,,,,
+,DRAWING,,,,
+,,,,,
+4,REVENUE,,,,
+,SALE B-40,,,,
+,SALE 53,,,,
+,,,,,
+5,EXPENSES,,,,
+,Staff Salaries,,,,
+,Rent B-40,,,,
+,Rent 53,,,,
+,Rent Godown 2nd Floor,,,,
+,Rent Godown 3rd Floor,,,,
+,Entertainment (Food/Tea),,,,
+,Cargo Exp,,,,
+,Utility Bills,,,,
+,Misc Exp,,,,
